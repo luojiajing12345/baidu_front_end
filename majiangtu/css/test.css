@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background: #FFC0CB;
+	height: 100vh;
+}
+.Mahjong{
+	width: 120px;
+	height: 150px;
+	border: 1px solid #F4C5CF;
+	float: left;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.div{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+	
+}
+.yitong{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #555555;
+
+}
+.yistyle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ertong{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #555555;
+}
+.erstyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:center;
+}
+.santong{
+	background: #555555;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.sanstyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.santongstyle:nth-child(1){
+	margin-left: 7px;
+}
+.santongstyle:nth-child(2){
+	display: flex;
+	justify-content: center;
+}
+.santongstyle:nth-child(3){
+	display: flex;
+	justify-content: flex-end;
+	margin-right:7px;
+}
+.sitong{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #555555;
+}
+.sitongstyle{
+	display: flex;
+	justify-content: space-around;
+
+}
+.sistyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.wutong{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #555555;
+}
+.wutongstyle{
+	display: flex;
+	justify-content: space-around;
+}
+.wustyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.liutong{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #555555;
+}
+.liutongstyle{
+	display: flex;
+	justify-content: center;
+}
+.liustyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.qitong{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #555555;
+}
+.qitongstyle{
+	display: flex;
+	justify-content: center;
+}
+.qitongtop .qitongstyle:nth-child(1){
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.qitongtop .qitongstyle:nth-child(2){
+	margin-top: -10px;
+}
+.qitongtop .qitongstyle:nth-child(3){
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	margin-top: -10px;
+}
+.batong {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #555555;
+}
+.batongstyle{
+	display: flex;
+	justify-content: center;
+}
+.bastyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.jiutong{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #555555;
+}
+.jiutongstyle{
+	display: flex;
+	justify-content: center;
+}
+.jiustyle{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
